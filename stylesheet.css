@@ -1,0 +1,80 @@
+body {
+  padding-left: 25%;
+  padding-right: 25%;
+  background-image: url(http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-015.jpg);
+}
+
+header {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 2%;
+  font-family: Miniver;
+}
+
+nav{
+  height: 50px;
+}
+
+#menu {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#menu li {
+  background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  margin-bottom: 1px ;
+  width: 100px;
+}
+
+#menu li a {
+  display: block ;
+  background: #c00 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;
+}
+
+#menu li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #900 ;
+  text-decoration: underline ;
+}
+
+#menu li {
+  display: inline;
+}
+
+nav #menu .en-cours a {
+	text-decoration:underline;
+}
+
+#jd {
+  height: 150px;
+  width: 150px;
+}
+
+#interview {
+  text-decoration:underline;
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  display: none;
+}
+
+h4 {
+  text-decoration:underline;
+}
